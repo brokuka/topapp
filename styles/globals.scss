@@ -1,0 +1,25 @@
+@use 'sass:math';
+
+@import 'vars';
+@import 'mixins';
+@import 'helpers';
+
+html {
+    font-size: #{$baseFontSize}px;
+}
+
+body {
+    font-family: $defaultFont;
+    font-size: $defaultFontSize;
+    color: $cBlack;
+    font-weight: $defaultFontWeight;
+
+    background-color: #F5F6F8;
+}
+
+.container {
+    max-width: 100%;
+    width: #{$container}px;
+    margin: 0 auto;
+    padding: 0 #{math.div($containerPadding, 2)}px;
+}

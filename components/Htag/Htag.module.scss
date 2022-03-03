@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+@import "../../styles/mixins";
+@import "../../styles/vars";
+
+.h1 {
+    // @include adaptiveValue(font-size, 26, 10, 1);
+    font-size: rem(26);
+    font-weight: 500;
+    line-height: rem(35);
+}
+
+.h2 {
+    font-size: rem(22);
+    font-weight: 500;
+    line-height: rem(30);
+}
+
+.h3 {
+    font-size: rem(20);
+    font-weight: 600;
+    line-height: rem(27);
+}

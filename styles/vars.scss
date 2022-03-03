@@ -1,0 +1,27 @@
+/* Colors */
+$cPrimary: #7653FC;
+$cHoverPrimary: darken(#7653FC, 5);
+$cBlack: #3B434E;
+$cWhite: #FFF;
+$cRed: #FC836D;
+$cGreen: #1DC37E;
+$cLightGreen: #C8F8E4;
+$cLightGrey: #EBEBEB;
+
+/* Font */
+$baseFontSize: 10;
+$defaultFont: "Noto Sans Display", sans-serif;
+$defaultFontSize: rem(10);
+$defaultFontWeight: 400;
+
+/* Container */
+$maxWidthContainer: 1441;
+$container: 1142;
+$containerPadding: 30;
+
+/* Device */
+$mobile: 576px;
+$tablet: 767.98px;
+$desktopSm: 991.98px;
+$desktop: 1199.98px;
+$desktopLg: 1399.98px;
